@@ -1,0 +1,28 @@
+button {
+  background-color: white;
+  padding: 8px 16px;
+  content
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#top {
+  background-color: black;
+  color: white;
+}
+
+#course {
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  background-color: white;
+}
+
+tr:nth-child(2n+1) {
+  background-color: rgb(226 212 193);
+}
