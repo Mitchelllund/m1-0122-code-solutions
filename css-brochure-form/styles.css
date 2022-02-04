@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+  color: #f07167;
+  font-family: AtlasGrotesk, "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  text-transform: uppercase;
+}
+
+body {
+  text-align: center;
+}
+
+section {
+  font-family: "Brandon Grotesque", AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+input.first,
+input.second,
+input.third {
+  border-radius: 6px;
+  margin-top: 5px;
+  padding: 12px 25rem 12px 8px;
+}
+
+input.fourth {
+  border: 6px;
+  background-color: #f07167;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-left: 30rem;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+select {
+  border-radius: 6px;
+  padding: 12px 29.5rem 12px 8px;
+  background-color: whitesmoke;
+}
+
+label.lfirst {
+  margin-right: 27rem;
+}
+
+label.lsecond {
+  margin-right: 32rem;
+}
+
+label.lthird {
+  margin-right: 23rem;
+}
+
+label.lfourth {
+  margin-right: 4rem;
+}
