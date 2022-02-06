@@ -22,7 +22,8 @@ input.second,
 input.third {
   border-radius: 6px;
   margin-top: 5px;
-  padding: 12px 25rem 12px 8px;
+  padding: 12px  12px 8px;
+  width: 700px;
 }
 
 input.fourth {
@@ -32,31 +33,25 @@ input.fourth {
   padding: 15px 30px;
   border-radius: 50px;
   text-transform: uppercase;
-  margin-left: 30rem;
 }
 
 label {
   text-transform: uppercase;
+  display: inline-block;
+  width: 675px;
+  text-align: left;
 }
 
 select {
   border-radius: 6px;
-  padding: 12px 29.5rem 12px 8px;
+  padding: 12px 12px 8px;
   background-color: whitesmoke;
+  width: 700px;
 }
 
-label.lfirst {
-  margin-right: 27rem;
-}
-
-label.lsecond {
-  margin-right: 32rem;
-}
-
-label.lthird {
-  margin-right: 23rem;
-}
-
-label.lfourth {
-  margin-right: 4rem;
+div.button {
+  display: inline-block;
+  text-align: right;
+  width: 700px;
+  margin: 10px;
 }
