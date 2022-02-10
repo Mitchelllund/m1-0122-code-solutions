@@ -46,7 +46,7 @@ p {
 }
 
 .column-one-third {
-  width: auto;
+  width: calc(100% / 3);
   text-align: center;
   align-content: center;
   flex: 1;
