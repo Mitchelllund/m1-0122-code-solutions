@@ -1,0 +1,46 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  justify-content: center;
+  margin: auto;
+  max-width: 900px;
+}
+
+.row {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  margin: auto;
+}
+
+header {
+  margin: auto;
+  width: 100%;
+  font-weight: 900;
+}
+
+img {
+  margin: auto;
+  width: 100%;
+}
+
+.column-two-third {
+  width: calc(200% / 3);
+}
+
+.column-one-third {
+  width: calc(100% / 3);
+}
+
+.column-one-fourth {
+  width: calc(100% / 4);
+}
+
+.column-1 {
+  width: calc(100% / 4);
+}
