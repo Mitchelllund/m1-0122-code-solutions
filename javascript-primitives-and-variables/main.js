@@ -2,7 +2,7 @@ var fullName = 'Mitchell Lund';
 var isCool = true;
 var totalPets = 1;
 var unknown = null;
-var never =
+var never;
 
 console.log('value of fullName', fullName);
 console.log('value of', isCool);
