@@ -1,0 +1,105 @@
+* {
+  font-family: Barlow, sans-serif;
+}
+
+header {
+  text-align: center;
+  font-weight: 900;
+  width: auto;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  width: auto;
+  align-content: center;
+}
+
+.column-one-fourth {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  width: calc(100% / 4);
+  height: auto;
+}
+
+.phone-app {
+  background-image: url("images/screen-1.png");
+  background-size: 100%;
+  width: 300px;
+  height: 460px;
+  margin-bottom: 30px;
+}
+
+.phone-trip {
+  background-image: url("images/screen-2.png");
+  background-size: 100%;
+  width: 300px;
+  height: 460px;
+  margin-bottom: 30px;
+}
+
+.phone-service {
+  background-image: url("images/screen-3.png");
+  background-size: 100%;
+  width: 300px;
+  height: 460px;
+  margin-bottom: 30px;
+}
+
+.phone-mileage {
+  background-image: url("images/screen-4.png");
+  background-size: 100%;
+  width: 300px;
+  height: 460px;
+  margin-bottom: 30px;
+}
+
+.app-img {
+  background-image: url("images/switch-icon.png");
+  background-size: 100%;
+  width: 25%;
+  height: 70px;
+  align-self: center;
+}
+
+.trip-img {
+  background-image: url("images/filter-icon.png");
+  background-size: 100%;
+  width: 25%;
+  height: 70px;
+  align-self: center;
+}
+
+.service-img {
+  background-image: url("images/slider-icon.png");
+  background-size: 100%;
+  width: 25%;
+  height: 70px;
+  align-self: center;
+}
+
+.stats-img {
+  background-image: url("images/bars-icon.png");
+  background-size: 100%;
+  width: 25%;
+  height: 70px;
+  align-self: center;
+}
