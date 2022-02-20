@@ -62,7 +62,7 @@ hr {
   align-items: center;
 }
 
-.column {
+.column-foot {
   display: flex;
   width: 300px;
   justify-content: space-evenly;
