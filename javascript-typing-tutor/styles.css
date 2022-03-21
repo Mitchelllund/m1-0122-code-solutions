@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.typing {
+  font-size: 40px;
+}
+
+.cursor {
+  text-decoration: underline;
+}
+
+.correct {
+  color: #007200;
+}
+
+.incorrect {
+  color: red;
+}
